@@ -1,0 +1,111 @@
+html {
+    width: 100%;
+}
+body{
+    background: url("https://images2.alphacoders.com/593/593178.jpg") no-repeat;
+    background-size: cover;
+    background-color: rgb(200, 200, 200);
+    font-size: 25px;
+    font-family: 'Spicy Rice', cursive;
+    color: #000f08;
+    margin: 0;
+}
+#nav {
+    overflow: hidden;
+    margin: auto;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+    padding-top: 25px;
+    min-height: 70px;
+}
+.navbar {
+    float: right;
+}
+.navbar a {
+    padding: 36px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+.navbar a:hover:not(.active) {
+    background-color: lightgray;
+}
+li .active {
+    background-color: #9A7D99
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar li{
+    margin: auto;
+    float: left;
+    display: inline;
+}
+#country {
+    float: left;
+}
+#country a {
+    text-decoration: none;
+}
+#country h1 {
+    letter-spacing: 10px;
+    margin: 0;
+    padding-left: 30px;
+}
+#red {
+    color: #AE1C28;
+}
+#white {
+    color: #fff;
+}
+#blue {
+    color:#21468B;
+}
+#redbar a {
+    color: #AE1C28;
+}
+#whitebar a {
+    color: #fff;
+}
+#bluebar a {
+    color: #21468B;
+}
+#main h1 {
+    color: white;
+    font-family: 'Niramit', sans-serif;    
+    text-align: center;
+    margin: 100px auto 0 auto;
+    width: 20%;
+    font-weight: bolder;
+    border: 5px solid gray;
+    border-radius: 25px;
+    display: block;
+    background-color: rgb(200, 200, 200); 
+    text-shadow: 1px 1px 4px black;
+}
+#content{
+    background-color: rgb(200, 200, 200);
+    width: 80%;
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-top: 200px;
+}
+#footer {
+    padding: 30px;
+    background: rgb(30, 30, 30);
+    color: lightgrey;
+    text-align: center;
+}
+footer a {
+    color: lightgrey;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: white;
+}
